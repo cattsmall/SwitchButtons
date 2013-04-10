@@ -27,7 +27,7 @@ Using Switchbuttons is very simple.
 
 6. *Optional* - Download an icon font library like Symbolset, Foundation Icons (included), Entypo, or Font Awesome.
 
-7. *Optional* - change the i tag class & content to match your preferred icon font.
+7. *Optional* - Change the i tag class & content to match your preferred icon font.
 
 
 * List of SwitchButtons + code *
@@ -110,12 +110,12 @@ Feel free to duplicate & edit the JavaScript if you ever need more than one set 
 
 ###Lock - Can be used to signify that something is secured on click
 
-*Basic lock button*
+*Basic lock button:*
 
 	<button class="switch-button lock"><i class="foundicon-lock"></i></button>
 
 
-*Lock/unlock button*
+*Lock/unlock button:*
 
 	<button class="switch-button lock lock-unlock"><i class="foundicon-unlock"></i></button>
 
