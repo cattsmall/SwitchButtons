@@ -1,10 +1,10 @@
 SwitchButtons
 ============
 ###A simple set of toggle buttons for faster prototyping in code
-###Coded with love by Catt Small in 2013
-###http://www.cattsmall.com
-###Twitter: @cattsmall
-###Github: cattsmall
+####Coded with love by Catt Small in 2013
+####http://www.cattsmall.com
+####Twitter: @cattsmall
+####Github: cattsmall
 
 SwitchButtons are a simple set of jQuery-based toggle buttons for faster prototyping in code. I built them for use in my work when I couldn't find a quick, lightweight, easy-to-use plugin. I ended up referencing the files so often that I began to think it could be useful to other people.
 
@@ -37,8 +37,8 @@ Using Switchbuttons is very simple.
 * List of SwitchButtons + code *
 --------------------------------
 
-Star - Use for favoriting or rating
------------------------------------
+### Star - Use for favoriting or rating
+
 *Basic favorite button:*
 
 	<button class="switch-button star"><i class="foundicon-star"></i></button>
@@ -73,27 +73,24 @@ Feel free to duplicate & edit the JavaScript if you ever need more than one set 
 	
 	
 
-Heart - Use to show appreciation
---------------------------------
+###Heart - Use to show appreciation
 
 	<button class="switch-button heart"><i class="foundicon-heart"></i></button>
 
 
-Thumbsup - Use for liking content
----------------------------------
+###Thumbsup - Use for liking content
 
 	<button class="switch-button thumbsup"><i class="foundicon-social-thumb-up"></i></button>
 
 
-Delete/Ban - Signify deletion or banning
-----------------------------------------
+###Delete/Ban - Signify deletion or banning
 
 	<button class="switch-button ban"><i class="foundicon-remove"></i></button>
 
 
-5. Checkbox - Can be used to check one option or check & uncheck all targeted checkboxes
+###Checkbox - Can be used to check one option or check & uncheck all targeted checkboxes
 
-*Bacic checkbox button:*
+*Basic checkbox button:*
 
 	<button class="switch-button checkbox"><i class="foundicon-checkmark"></i></button>
 
@@ -110,14 +107,12 @@ Delete/Ban - Signify deletion or banning
 	</div>
 
 
-Alert bell/flag - Can be used to toggle alerts or an alarm for a later date
----------------------------------------------------------------------------
+###Alert bell/flag - Can be used to toggle alerts or an alarm for a later date
 
 	<button class="switch-button alert"><i class="foundicon-flag"></i></button>
 
 
-Lock - Can be used to signify that something is secured on click
-----------------------------------------------------------------
+###Lock - Can be used to signify that something is secured on click
 
 	<button class="switch-button lock"><i class="foundicon-lock"></i></button>
 
