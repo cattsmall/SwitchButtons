@@ -1,8 +1,6 @@
 SwitchButtons
-============
+=============
 ###A simple set of toggle buttons for faster prototyping in code
-####Coded with love by Catt Small in 2013
-#####Website: http://www.cattsmall.com - Twitter: @cattsmall - Github: cattsmall
 
 SwitchButtons are a simple set of jQuery-based toggle buttons for faster prototyping in code. I built them for use in my work when I couldn't find a quick, lightweight, easy-to-use plugin. I ended up referencing the files so often that I began to think it could be useful to other people.
 
@@ -117,4 +115,6 @@ Feel free to duplicate & edit the JavaScript if you ever need more than one set 
 
 ------------------------------------------------------------------------------------
 
-Thanks! If you have any questions, tweet me @CattSmall.
+####Coded with love by Catt Small in 2013 - http://www.cattsmall.com - Twitter: @cattsmall - Github: cattsmall
+
+If you have any questions/suggestions or notice any bugs, tweet me @CattSmall.
