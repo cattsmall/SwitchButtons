@@ -6,8 +6,8 @@ a:hover {color:cyan;}
 a:active {color:darkblue;}
 
 p {line-height:1.5em;}
-	
-.header {width:50%; max-width:550px; margin:30px auto 50px;}
+
+.header {width:75%; max-width:550px; margin:30px auto 50px;}
 
 .header .fork-invitation {font-size:1.5em; color:#fff; display:block; text-align:center; background:#66bc29; border-bottom:2px solid #64ac28; margin:40px 0 0; padding:.5em 1em .3em; border-radius:.25em;}
 .header .fork-invitation:hover {background:#88de29; border-bottom-color:#66bc29;}
@@ -58,3 +58,11 @@ p {line-height:1.5em;}
 .half + .half {padding-left:3%;}
 	
 .clearfix {float:none; clear:both;}
+
+@media only screen and (max-width:750px) {
+	.one-third, .one-third + .one-third {width:100%; padding-left:0;}
+}
+
+@media only screen and (max-width:600px) {
+	.half, .half + .half {width:100%; padding-left:0;}
+}
