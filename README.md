@@ -19,7 +19,7 @@ Using Switchbuttons is very simple.
 
 1. Get jQuery
 
-2. Add switchbuttons.js to your main JavaScript file or folder; link JavaScript before the </body> tag
+2. Add switchbuttons.js to your main JavaScript file or folder; link JavaScript before the closing body tag
 
 3. Add switchbutton.css to your main CSS file or folder
 
