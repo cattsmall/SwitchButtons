@@ -48,7 +48,9 @@ p {line-height:1.5em;}
 .footer p {display:inline-block; margin:0 5px; font-size:.8em; color:#999;}
 .footer a {color:#666;}
 .footer a:hover {color:#ccc;}
-
+.footer .fork-invitation {color:#66bc29;}
+.footer .fork-invitation:hover {color:#88de29;}
+	
 .one-third {width:31.333333%; float:left;}
 .one-third + .one-third {padding-left:3%;}
 
