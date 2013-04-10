@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+/*
+jQuery SwitchButtons by Catt Small, 2013
+
+SwitchButtons CSS file
+----------------------
+Include this file's content in your main CSS file, or add it to your CSS folder.
+
+Change the styles in this file as much as you need to.
+*/
+
 /* basic settings */
 .switch-button {cursor:pointer; color: #CCC; -webkit-appearance: none; border: 0; background: 0; font-size:1.5em;}
 .switch-button.active {color:blue;}

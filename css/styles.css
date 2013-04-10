@@ -1,5 +1,15 @@
 @charset "UTF-8";
+/* 
+jQuery SwitchButtons by Catt Small, 2013
+
+Demo Page CSS
+-------------
+You can choose not to include this in your project.
+*/
+
 body {font-family: 'Source Sans Pro', sans-serif; background:#eee; font-weight:300;}
+
+/* font styles */
 a {color:blue; text-decoration:none; border-bottom:1px solid;}
 a:visited {color:gray;}
 a:hover {color:cyan;}
@@ -7,6 +17,7 @@ a:active {color:darkblue;}
 
 p {line-height:1.5em;}
 
+/* header */
 .header {width:75%; max-width:550px; margin:30px auto 50px;}
 
 .header .fork-invitation {font-size:1.5em; color:#fff; display:block; text-align:center; background:#66bc29; border-bottom:2px solid #64ac28; margin:40px 0 0; padding:.5em 1em .3em; border-radius:.25em;}
@@ -18,6 +29,7 @@ p {line-height:1.5em;}
 .header-title .highlight {display:inline-block; vertical-align:top; background:#999; color:#fff; text-shadow:none; margin:1em 0 0; padding:0 .5em .25em; font-weight:300; font-size:.35em; border-radius:.5em;}
 .header-title h2 {font-size:2em; font-weight:normal; margin:0; color:#666;}
 
+/* container */
 .container {width:80%; max-width:950px; margin:0 auto 20px; padding:20px 30px; background:#fff; border-radius:.65em;}
 .container h3 {font-weight:900; font-size:1.75em; margin:0; padding:0 0 5px; text-align:center; color:#CCC; border-bottom:1px #eee solid;}
 .container h4 {font-weight:bold; font-size:1.5em; margin:0;}
@@ -27,6 +39,7 @@ p {line-height:1.5em;}
 .content-subsection {margin:20px 0 0;}
 .content-subsection h6 {margin:0; color:#666;}
 
+/* check/star all examples */
 .example, .example p {display:inline-block;}
 .example p {font-size:.7em; color:#fff; background:#999; padding:0 .45em; margin:0 12px 0 0; position:relative;}
 .example p:after {
@@ -44,6 +57,7 @@ p {line-height:1.5em;}
 }
 .example .switch-button {font-size:.5em;}
 
+/* footer */
 .footer {text-align:center; margin:20px 0 0;}
 .footer p {display:inline-block; margin:0 5px; font-size:.8em; color:#999;}
 .footer a {color:#666;}
@@ -51,14 +65,17 @@ p {line-height:1.5em;}
 .footer .fork-invitation {color:#66bc29;}
 .footer .fork-invitation:hover {color:#88de29;}
 	
+/* percentage widths */
 .one-third {width:31.333333%; float:left;}
 .one-third + .one-third {padding-left:3%;}
 
 .half {width:48.5%; float:left;}
 .half + .half {padding-left:3%;}
 	
+/* clear floats	*/
 .clearfix {float:none; clear:both;}
 
+/* quick CSS media queries so any possible mobile viewers don't get broken-looking content */
 @media only screen and (max-width:750px) {
 	.one-third, .one-third + .one-third {width:100%; padding-left:0;}
 }

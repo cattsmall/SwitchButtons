@@ -1,7 +1,14 @@
 SwitchButtons
 ============
+###A simple set of toggle buttons for faster prototyping in code
+###Coded with love by Catt Small in 2013
+###http://www.cattsmall.com
+###Twitter: @cattsmall
+###Github: cattsmall
 
-SwitchButtons are a simple set of jQuery-based toggle buttons for faster prototyping in code.
+SwitchButtons are a simple set of jQuery-based toggle buttons for faster prototyping in code. I built them for use in my work when I couldn't find a quick, lightweight, easy-to-use plugin. I ended up referencing the files so often that I began to think it could be useful to other people.
+
+Feel free to fork this project and make it your own; I hope this will make prototyping interactions faster by removing the extra time spent on coding for toggle buttons. The SwitchButtons styles are in a separate CSS file, so it's quick and easy to create your own look. If you're a backend developer, you can also hook SwitchButtons up to code that interacts with a server. The possibilities are endless!
 
 For examples, check out the demo site: http://cattsmall.github.io/SwitchButtons/
 
@@ -19,6 +26,10 @@ Using Switchbuttons is very simple.
 4. Attach Switchbuttons.js to any pages on which toggle buttons are needed
 
 5. Copy and paste the SwitchButton you need from the demo site or this readme!
+
+6. *Optional* - Download an icon font library like Symbolset, Foundation Icons (included), Entypo, or Font Awesome.
+
+7. *Optional* - change the <i> tag class & content to match your preferred icon font.
 
 
 * List of SwitchButtons + code *
