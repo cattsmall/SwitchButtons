@@ -17,19 +17,21 @@ For examples, check out the demo site: http://cattsmall.github.io/SwitchButtons/
 -----------------------
 Using Switchbuttons is very simple.
 
-1. Get jQuery
+1. Get jQuery: http://jquery.com/download/
 
-2. Add switchbuttons.js to your main JavaScript file or folder; link JavaScript before the closing body tag
+2. Fork SwitchButtons!
 
-3. Add switchbutton.css to your main CSS file or folder
+3. Add switchbuttons.js to your main JavaScript file or folder; link JavaScript before the closing body tag
 
-4. Attach Switchbuttons.js to any pages on which toggle buttons are needed
+4. Add switchbutton.css to your main CSS file or folder
 
-5. Copy and paste the SwitchButton you need from the demo site or this readme!
+5. Attach Switchbuttons.js to any pages on which toggle buttons are needed
+
+6. Copy and paste the SwitchButton you need from the demo site or this readme!
 
 6. *Optional* - Download an icon font library like Symbolset, Foundation Icons (included), Entypo, or Font Awesome.
 
-7. *Optional* - change the <i> tag class & content to match your preferred icon font.
+7. *Optional* - change the i tag class & content to match your preferred icon font.
 
 
 * List of SwitchButtons + code *
