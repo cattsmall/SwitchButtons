@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* basic settings */
-.switch-button {color: #CCC; -webkit-appearance: none; border: 0; background: 0;}
+.switch-button {color: #CCC; -webkit-appearance: none; border: 0; background: 0; font-size:1.5em;}
 .switch-button.active {color:blue;}
 .switch-button:active, .switch-button.active:active {color:#666;}
 
@@ -11,5 +11,17 @@
 /* heart */
 .switch-button.heart.active {color:red;}
 
+/* thumbsup */
+.switch-button.thumbsup.active {color:blue;}
+
 /* delete/ban */
 .switch-button.ban.active {color:red;}
+
+/* checkbox */
+.switch-button.checkbox.active {color:blue;}
+
+/* alert/bell/flag */
+.switch-button.alert.active {color:red;}
+
+/* lock */
+.switch-button.lock.active {color:blue;}

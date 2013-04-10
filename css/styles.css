@@ -1,1 +1,35 @@
 @charset "UTF-8";
+body {font-family: 'Source Sans Pro', sans-serif; background:#ccc;}
+a {color:blue; text-decoration:none; border-bottom:1px solid;}
+a:visited {color:gray;}
+a:hover {color:cyan;}
+a:active {color:darkblue;}
+
+p {line-height:1.5em;}
+	
+.header {width:50%; max-width:550px; margin:30px auto 50px; text-shadow:0 1px 0 #efefef;}
+.header-title {text-align:center; text-shadow:0 2px 0 #efefef; margin:0 0 40px;}
+
+.header-title h1 {font-size:3em; margin:0;}
+.header-title h2 {font-size:2em; font-weight:normal; margin:0; color:#666;}
+
+.container {width:80%; max-width:950px; margin:0 auto; padding:20px 30px; background:#fff; border-radius:.65em;}
+.container h3 {font-weight:900; font-size:1.75em; margin:0; padding:0 0 5px; text-align:center; color:#CCC; border-bottom:1px #eee solid;}
+.container h4 {font-weight:bold; font-size:1.25em; margin:0;}
+.container h5 {font-weight:normal; margin:0; color:#666;}
+
+.container .set-content {padding:30px 0; border-bottom:1px #efefef dotted;}
+.content-subsection {margin:20px 0 0;}
+.content-subsection h6 {margin:0;}
+
+.example, .example p {display:inline-block;}
+.example p {font-size:.7em; color:#fff; background:#ccc; padding:0 .45em;}
+.example .switch-button {font-size:.5em;}
+
+.one-third {width:31.333333%; float:left;}
+.one-third + .one-third {padding-left:3%;}
+
+.half {width:48.5%; float:left;}
+.half + .half {padding-left:3%;}
+	
+.clearfix {float:none; clear:both;}
