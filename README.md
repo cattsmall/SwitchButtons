@@ -10,21 +10,21 @@ For examples, check out the demo site: http://cattsmall.github.io/SwitchButtons/
 -----------------------
 Using Switchbuttons is very simple.
 
-1) Get jQuery
+1. Get jQuery
 
-2) Add switchbuttons.js to your main JavaScript file or folder
+2. Add switchbuttons.js to your main JavaScript file or folder
 
-3) Add switchbutton.css to your main CSS file or folder
+3. Add switchbutton.css to your main CSS file or folder
 
-4) Attach Switchbuttons.js to any pages on which toggle buttons are needed
+4. Attach Switchbuttons.js to any pages on which toggle buttons are needed
 
-5) Copy and paste the SwitchButton you need from the demo site or this readme!
+5. Copy and paste the SwitchButton you need from the demo site or this readme!
 
 
 * List of SwitchButtons + code *
 --------------------------------
 
-1) Star - Use for favoriting or rating</h5>
+1. Star - Use for favoriting or rating</h5>
 
 *Basic favorite button:*
 
@@ -60,22 +60,22 @@ Feel free to duplicate & edit the JavaScript if you ever need more than one set 
 	
 	
 
-2) Heart - Use to show appreciation
+2. Heart - Use to show appreciation
 
 	<button class="switch-button heart"><i class="foundicon-heart"></i></button>
 
 
-3) Thumbsup - Use for liking content
+3. Thumbsup - Use for liking content
 
 	<button class="switch-button thumbsup"><i class="foundicon-social-thumb-up"></i></button>
 
 
-4) Delete/Ban - Signify deletion or banning
+4. Delete/Ban - Signify deletion or banning
 
 	<button class="switch-button ban"><i class="foundicon-remove"></i></button>
 
 
-5) Checkbox - Can be used to check one option or check & uncheck all targeted checkboxes
+5. Checkbox - Can be used to check one option or check & uncheck all targeted checkboxes
 
 *Bacic checkbox button:*
 
@@ -94,12 +94,12 @@ Feel free to duplicate & edit the JavaScript if you ever need more than one set 
 	</div>
 
 
-6) Alert bell/flag - Can be used to toggle alerts or an alarm for a later date
+6. Alert bell/flag - Can be used to toggle alerts or an alarm for a later date
 
 	<button class="switch-button alert"><i class="foundicon-flag"></i></button>
 
 
-7) Lock - Can be used to signify that something is secured on click
+7. Lock - Can be used to signify that something is secured on click
 
 	<button class="switch-button lock"><i class="foundicon-lock"></i></button>
 
