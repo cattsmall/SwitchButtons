@@ -6,7 +6,7 @@ SwitchButtons are a simple set of jQuery-based toggle buttons. I built them for 
 
 Feel free to fork this project and make it your own; I hope this will make prototyping interactions faster by removing the extra time spent on coding for toggle buttons. The SwitchButtons styles are in a separate CSS file, so it's quick and easy to create your own look. If you're a backend developer, you can also hook SwitchButtons up to code that interacts with a server. The possibilities are endless!
 
-For examples, check out the demo site: http://cattsmall.github.io/SwitchButtons/
+For live examples, check out the demo site: http://cattsmall.github.io/SwitchButtons/
 
 
 * Using SwitchButtons *
