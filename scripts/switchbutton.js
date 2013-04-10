@@ -52,4 +52,32 @@
 		}	
 		e.preventDefault();
 	});
+	
+	
+	// Lock/unlock toggle 
+	// if you're using an icon font that targets CSS classes, remove the optional section.
+	$(".switch-button.lock-unlock").click( function(e) {
+		// checks if the icon is a lock icon class. If so, it changes it to unlock
+		if ($(this).find("i").is(".foundicon-lock")){
+			$(this).find(".foundicon-lock").addClass("foundicon-unlock");
+			$(this).find(".foundicon-lock").removeClass("foundicon-lock");
+		}
+		
+		// else, it checks if it's an unlock icon.
+		else if ($(this).find("i").is(".foundicon-unlock")){
+			$(this).find(".foundicon-unlock").addClass("foundicon-lock");
+			$(this).find(".foundicon-unlock").removeClass("foundicon-unlock");
+		}
+		
+		// OPTIONAL check for active class on the button. Use for unicode symbols.
+		else if ($(this).is(".active")){
+			$(this).find("i").html("&#x1F512;");
+		}
+		
+		// OPTIONAL else in case active class is not on the button. Use for unicode symbols.
+		else {
+			$(this).find("i").html("&#x1F513;");
+		}
+		e.preventDefault();
+	});
 })(jQuery);

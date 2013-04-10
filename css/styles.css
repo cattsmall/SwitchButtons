@@ -38,7 +38,8 @@ p {line-height:1.5em;}
 .container .set-content {padding:30px 0; border-bottom:1px #efefef dotted;}
 .content-subsection {margin:20px 0 0;}
 .content-subsection h6 {margin:0; color:#666;}
-
+h6.note {margin:20px 0 0; color:#666;}
+	
 /* check/star all examples */
 .example, .example p {display:inline-block;}
 .example p {font-size:.7em; color:#fff; background:#999; padding:0 .45em; margin:0 12px 0 0; position:relative;}
@@ -80,6 +81,6 @@ p {line-height:1.5em;}
 	.one-third, .one-third + .one-third {width:100%; padding-left:0;}
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:675px) {
 	.half, .half + .half {width:100%; padding-left:0;}
 }

@@ -110,7 +110,14 @@ Feel free to duplicate & edit the JavaScript if you ever need more than one set 
 
 ###Lock - Can be used to signify that something is secured on click
 
+*Basic lock button*
+
 	<button class="switch-button lock"><i class="foundicon-lock"></i></button>
+
+
+*Lock/unlock button*
+
+	<button class="switch-button lock lock-unlock"><i class="foundicon-unlock"></i></button>
 
 
 ------------------------------------------------------------------------------------
