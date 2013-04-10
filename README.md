@@ -5,14 +5,21 @@ SwitchButtons are a simple set of jQuery-based toggle buttons for faster prototy
 
 For examples, check out the demo site: http://cattsmall.github.io/SwitchButtons/
 
+
 * Using SwitchButtons *
 -----------------------
 Using Switchbuttons is very simple.
+
 1) Get jQuery
+
 2) Add switchbuttons.js to your main JavaScript file or folder
+
 3) Add switchbutton.css to your main CSS file or folder
+
 4) Attach Switchbuttons.js to any pages on which toggle buttons are needed
+
 5) Copy and paste the SwitchButton you need from the demo site or this readme!
+
 
 * List of SwitchButtons + code *
 --------------------------------
