@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/* basic settings */
+.switch-button {color: #CCC; -webkit-appearance: none; border: 0; background: 0;}
+.switch-button.active {color:blue;}
+.switch-button:active, .switch-button.active:active {color:#666;}
+
+/* star */
+.switch-button.star.active {color:#F90;}
+
+/* heart */
+.switch-button.heart.active {color:red;}
+
+/* delete/ban */
+.switch-button.ban.active {color:red;}

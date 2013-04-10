@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>SwitchButton</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<meta name="description" content="A simple set of toggle buttons for faster prototyping in code.">
+
+		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+		<link rel="stylesheet" type="text/css" href="css/switchbutton.css"/>
+		<link rel="stylesheet" type="text/css" href="css/general_foundicons.css"/>
+		<link rel="stylesheet" type="text/css" href="css/social_foundicons.css"/>
+		<!--[if lte IE 7]>
+			<link rel="stylesheet" type="text/css" href="css/general_foundicons_ie7.css"/>
+			<link rel="stylesheet" type="text/css" href="css/social_foundicons_ie7.css"/>
+		<![endif]-->
+	</head>
+	<body>
+		<header>
+			<hgroup>
+				<h1>SwitchButton</h1>
+				<h2>A simple set of toggle buttons for faster prototyping in code</h2>
+			</hgroup>
+			<p><strong>SwitchButton</strong> uses unicode symbols and the jQuery library to toggle an <code>active</code> class when clicked. It helps interaction designers &amp; front-end developers to quickly prototype toggle button interactions.</p>
+			<p>SwitchButton is based on unicode symbols and can be used with icon fonts like <a href="http://symbolset.com/">Symbolset</a>, <a href="http://www.zurb.com/playground/foundation-icons">Foundation Icons (used in this demo)</a>, <a href="http://www.entypo.com/">Entypo</a>, or <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a>.</p>
+		</header>
+		<section>
+			<!-- star -->
+			<article>
+				<header>
+					<hgroup>
+						<h3>Star</h3>
+						<h4>Can be used for favoriting or rating</h4>
+					</hgroup>
+				</header>
+				<button class="switch-button star"><i class="foundicon-star"></i></button>
+				
+				<button class="switch-button star star-all"><i class="foundicon-star"></i></button>
+				<button class="switch-button switch-button-target star"><i class="foundicon-star"></i></button>
+				<button class="switch-button switch-button-target star"><i class="foundicon-star"></i></button>
+				<button class="switch-button switch-button-target star"><i class="foundicon-star"></i></button>
+				<button class="switch-button switch-button-target star"><i class="foundicon-star"></i></button>
+				
+				<div class="switch-button-group rating">
+					<button class="switch-button star"><i class="foundicon-star"></i></button>
+					<button class="switch-button star"><i class="foundicon-star"></i></button>
+					<button class="switch-button star"><i class="foundicon-star"></i></button>
+					<button class="switch-button star"><i class="foundicon-star"></i></button>
+				</div>
+			</article>
+			
+			<!-- heart -->
+			<article>
+				<header>
+					<hgroup>
+						<h3>Heart</h3>
+						<h4>Can be used to appreciate good content</h4>
+					</hgroup>
+				</header>
+				<button class="switch-button heart"><i class="foundicon-heart"></i></button>
+			</article>
+			
+			<!-- thumbsup -->
+			<article>
+				<header>
+					<hgroup>
+						<h3>Thumbsup</h3>
+						<h4>Can be used for liking content</h4>
+					</hgroup>
+				</header>
+				<button class="switch-button thumbsup"><i class="foundicon-social-thumb-up"></i></button>
+			</article>
+			
+			<!-- ban -->
+			<article>
+				<header>
+					<h3>Delete/Ban</h3>
+				</header>
+				<button class="switch-button ban"><i class="foundicon-remove"></i></button>
+			</article>
+
+			<!-- check/uncheck all -->
+			<article>
+				<header>
+					<hgroup>
+						<h3>Checkbox</h3>
+						<h4>Can be used to check one option or check &amp; uncheck all targeted checkboxes</h4>
+					</hgroup>
+				</header>
+				<button class="switch-button checkbox"><i class="foundicon-checkmark"></i></button>
+				
+				<button class="switch-button checkbox check-all"><i class="foundicon-checkmark"></i></button>
+				<input type="checkbox" class="switch-button-target checkbox">
+				<input type="checkbox" class="switch-button-target checkbox">
+				<input type="checkbox" class="switch-button-target checkbox">
+				<input type="checkbox" class="switch-button-target checkbox">
+				<input type="checkbox" class="switch-button-target checkbox">
+			</article>
+			
+			<!-- alarm bell -->
+			<article>
+				<header>
+					<hgroup>
+						<h3>Alert/bell/flag</h3>
+						<h4>Can be used to toggle alerts or an alarm for a later date</h4>
+					</hgroup>
+				</header>
+				<button class="switch-button bell"><i class="foundicon-flag"></i></button>
+			</article>
+			
+			<!-- lock -->
+			<article>
+				<header>
+					<hgroup>
+						<h3>Lock</h3>
+						<h4>Can be used to signify that something is secured on click</h4>
+					</hgroup>
+				</header>
+				<button class="switch-button bell"><i class="foundicon-lock"></i></button>
+			</article>
+	<script src="scripts/jquery-1.9.1.min.js"></script>
+	<script src="scripts/switchbutton.js"></script>
+	</body>
+</html>
