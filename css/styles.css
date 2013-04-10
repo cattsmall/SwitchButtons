@@ -7,7 +7,7 @@ Demo Page CSS
 You can choose not to include this in your project.
 */
 
-body {font-family: 'Source Sans Pro', sans-serif; background:#eee; font-weight:300;}
+body {font-family: 'Source Sans Pro', sans-serif; background:#eee;}
 
 /* font styles */
 a {color:blue; text-decoration:none; border-bottom:1px solid;}
