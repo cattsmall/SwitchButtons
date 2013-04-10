@@ -37,8 +37,8 @@ Using Switchbuttons is very simple.
 * List of SwitchButtons + code *
 --------------------------------
 
-1. Star - Use for favoriting or rating</h5>
-
+Star - Use for favoriting or rating
+-----------------------------------
 *Basic favorite button:*
 
 	<button class="switch-button star"><i class="foundicon-star"></i></button>
@@ -73,17 +73,20 @@ Feel free to duplicate & edit the JavaScript if you ever need more than one set 
 	
 	
 
-2. Heart - Use to show appreciation
+Heart - Use to show appreciation
+--------------------------------
 
 	<button class="switch-button heart"><i class="foundicon-heart"></i></button>
 
 
-3. Thumbsup - Use for liking content
+Thumbsup - Use for liking content
+---------------------------------
 
 	<button class="switch-button thumbsup"><i class="foundicon-social-thumb-up"></i></button>
 
 
-4. Delete/Ban - Signify deletion or banning
+Delete/Ban - Signify deletion or banning
+----------------------------------------
 
 	<button class="switch-button ban"><i class="foundicon-remove"></i></button>
 
@@ -107,12 +110,14 @@ Feel free to duplicate & edit the JavaScript if you ever need more than one set 
 	</div>
 
 
-6. Alert bell/flag - Can be used to toggle alerts or an alarm for a later date
+Alert bell/flag - Can be used to toggle alerts or an alarm for a later date
+---------------------------------------------------------------------------
 
 	<button class="switch-button alert"><i class="foundicon-flag"></i></button>
 
 
-7. Lock - Can be used to signify that something is secured on click
+Lock - Can be used to signify that something is secured on click
+----------------------------------------------------------------
 
 	<button class="switch-button lock"><i class="foundicon-lock"></i></button>
 
